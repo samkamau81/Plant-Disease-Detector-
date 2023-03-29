@@ -1,1 +1,19 @@
+By Samuel Waweru
 
+A convolutional neural network (CNN) is a type of artificial neural network that is commonly used in image and video processing applications. CNNs are designed to recognize spatial patterns in input data by using convolutional filters, which are essentially small matrices that are applied to subsets of the input data to extract features.
+
+The basic idea behind a CNN is to use multiple layers of convolutional filters followed by pooling layers to gradually reduce the spatial dimensions of the input data while increasing the number of features that can be extracted. The output of the final convolutional layer is then flattened into a vector and passed through one or more fully connected layers to make a final classification decision.
+
+There are a number of key concepts that are important to understand when working with CNNs. These include:
+
+Convolution: This is the process of applying a set of filters to an input data matrix in order to extract features. Each filter is a small matrix that is convolved with the input matrix to produce a feature map.
+
+Pooling: This is the process of downsampling the output of a convolutional layer by applying a pooling operation (e.g., max pooling or average pooling) to subsets of the feature maps.
+
+Activation functions: These are mathematical functions that are applied to the output of each neuron in a CNN to introduce nonlinearity and allow the network to learn more complex patterns.
+
+Dropout: This is a regularization technique that randomly drops out a subset of neurons in a CNN during training in order to prevent overfitting.
+
+Optimization algorithms: These are algorithms that are used to update the weights of the network during training in order to minimize the loss function.
+
+Overall, CNNs are a powerful tool for image and video processing tasks and have been used successfully in a wide range of applications, including object detection, facial recognition, and medical image analysis.
